@@ -15,7 +15,7 @@ body
 {
   max-width: 600px;
   height: 500px;
-  margin: 0 auto;
+  margin: 60px auto;
   background: linear-gradient( 
   to bottom right,rgba(255, 255, 255, 0.2);
    rgba(255, 255, 255, 0.05));
@@ -23,7 +23,7 @@ body
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5), -1px 
   -1px 2px #aaa, 1px 1px 2px #555;
   backdrop-filter:blur(0.8rem) ;
-  border-radius:1rem;
+  border-radius:10px;
 } 
 
  .grid h1
@@ -40,8 +40,9 @@ body
 .grid #question
 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
-  color:#5a6772;
+  font-size: 50px;
+  color:#fff;
+  text-align: center;
 }
 
 .buttons
@@ -59,6 +60,11 @@ body
   border-radius: 50px;
   margin: 10px 40px 10px 0px;
   padding: 10px 10px;
+}
+#score{
+  color: #5a6772;
+  text-align: center;
+  font-size: 30px;
 }
 
 #progress 
